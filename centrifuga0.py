@@ -29,11 +29,11 @@ pero en este caso se aplica una aceleracion omega"""
 
 r0 = 8.49e-2      ## m
 rf = r0+d
-omega = 2290    ##vueltas/seg
+omega = 2290/60    ##vueltas/seg
 
 t2 = (18*np.log(rf/r0)*nu)/(dp**2*(abs(rho_l-rho_p))*omega**2) 
 
-print("Por otro lado, en una centrifuga Hermle z206a con una aceleracion ", omega, "rev/seg \n El tiempo que la misma partícula tarda en recorrer ", d/1e-2, "cm es de" )
+print("Por otro lado, en una centrifuga Hermle z206a con una aceleracion", round(omega,2), "rev/seg \n El tiempo que la misma partícula tarda en recorrer ", d/1e-2, "cm es de" )
 print(round(t2,2), "seg")
 print(round(t2/60,2), "min")
 print(round(t2/3600,2), "hrs")
