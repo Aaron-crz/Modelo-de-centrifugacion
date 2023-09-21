@@ -1,10 +1,10 @@
-cff-version: 1.2.0
+cff-version: 1.0.0
 message: "If you use this software, please cite it as below."
 authors:
 - family-names: "Aarón"
   given-names: "Cruz"
   orcid: ""
-title: "Mie_Theory"
+title: "Modelo de Centrifugación"
 version: 1.0.0
-date-released: 2023-09-13
-url: "https://github.com/Aaron-crz/Mie_Theory"
+date-released: 2023-09-20
+url: "https://github.com/Aaron-crz/Modelo-de-centrifugacion"
